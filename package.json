@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "sls offline start"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.286.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "^1.14.0",
+    "pretty-quick": "^1.6.0",
+    "serverless": "^1.29.1",
+    "serverless-dotenv-plugin": "^1.1.5",
+    "serverless-offline": "^3.25.6"
+  }
+}
